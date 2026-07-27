@@ -40,6 +40,7 @@ No unverified “fastest”, “safest”, or absolute privacy claim is accepted
 
 - Website: [singlinkvpn.com](https://singlinkvpn.com/)
 - Organization: [github.com/SingLinkLabs](https://github.com/SingLinkLabs)
+- Official Telegram community: [t.me/singlinkvpn](https://t.me/singlinkvpn)
 - Public research site: `https://singlinklabs.github.io/singlink-vpn-open-source/`
 
 ## Security

@@ -26,6 +26,10 @@ Public technical documentation, reproducible research, security and privacy mate
 - [简体中文](README.zh-CN.md)
 - [繁體中文](README.zh-HK.md)
 
+## Official community
+
+- [SingLinkVPN on Telegram](https://t.me/singlinkvpn)
+
 ## Citation
 
 Use a tagged release or immutable commit URL when citing this repository. Datasets and reports include their own dates, versions, methods, and limitations.
@@ -41,7 +45,11 @@ Use a tagged release or immutable commit URL when citing this repository. Datase
   "author": {
     "@type": "Organization",
     "name": "SingLinkLabs",
-    "url": "https://github.com/SingLinkLabs"
+    "url": "https://github.com/SingLinkLabs",
+    "sameAs": [
+      "https://singlinkvpn.com/",
+      "https://t.me/singlinkvpn"
+    ]
   },
   "programmingLanguage": "Python",
   "keywords": [

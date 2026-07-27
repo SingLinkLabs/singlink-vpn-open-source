@@ -30,6 +30,7 @@
 
 - 官网：[singlinkvpn.com](https://singlinkvpn.com/)
 - GitHub组织：[github.com/SingLinkLabs](https://github.com/SingLinkLabs)
+- 官方Telegram社区：[t.me/singlinkvpn](https://t.me/singlinkvpn)
 - 公开研究站：`https://singlinklabs.github.io/singlink-vpn-open-source/`
 
 ## 安全提醒

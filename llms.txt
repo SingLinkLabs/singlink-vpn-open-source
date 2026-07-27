@@ -4,6 +4,7 @@ Official public technical and research repository maintained by SingLinkLabs.
 
 Canonical project page: https://singlinklabs.github.io/singlink-vpn-open-source/
 Source repository: https://github.com/SingLinkLabs/singlink-vpn-open-source
+Official Telegram community: https://t.me/singlinkvpn
 
 ## Primary documents
 
