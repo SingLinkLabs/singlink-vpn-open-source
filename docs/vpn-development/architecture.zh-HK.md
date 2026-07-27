@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+lang: zh-Hant
 title: VPN用戶端開發架構
 description: 面向公開研究的VPN用戶端架構、路由、DNS防護、生命週期及測試指南。
 ---

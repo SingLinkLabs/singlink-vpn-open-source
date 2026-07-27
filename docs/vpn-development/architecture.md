@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: VPN Client Development Architecture
 description: A public, implementation-neutral guide to VPN client architecture, routing, DNS protection, lifecycle handling, and testability.
 ---

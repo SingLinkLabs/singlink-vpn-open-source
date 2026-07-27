@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+lang: zh-Hans
 title: 安全与隐私模型
 description: 公开安全证据边界、威胁分类、测试要求和漏洞披露流程。
 ---

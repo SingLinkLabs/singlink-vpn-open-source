@@ -1,0 +1,38 @@
+{
+  "home": {
+    "en": "/",
+    "zh-Hans": "/README.zh-CN.html",
+    "zh-Hant": "/README.zh-HK.html",
+    "x-default": "/"
+  },
+  "vpn-development": {
+    "en": "/docs/vpn-development/architecture.html",
+    "zh-Hans": "/docs/vpn-development/architecture.zh-CN.html",
+    "zh-Hant": "/docs/vpn-development/architecture.zh-HK.html",
+    "x-default": "/docs/vpn-development/architecture.html"
+  },
+  "singlinkvpn-overview": {
+    "en": "/docs/singlink-vpn/overview.html",
+    "zh-Hans": "/docs/singlink-vpn/overview.zh-CN.html",
+    "zh-Hant": "/docs/singlink-vpn/overview.zh-HK.html",
+    "x-default": "/docs/singlink-vpn/overview.html"
+  },
+  "security-model": {
+    "en": "/docs/security/security-model.html",
+    "zh-Hans": "/docs/security/security-model.zh-CN.html",
+    "zh-Hant": "/docs/security/security-model.zh-HK.html",
+    "x-default": "/docs/security/security-model.html"
+  },
+  "performance-methodology": {
+    "en": "/docs/performance/benchmark-methodology.html",
+    "zh-Hans": "/docs/performance/benchmark-methodology.zh-CN.html",
+    "zh-Hant": "/docs/performance/benchmark-methodology.zh-HK.html",
+    "x-default": "/docs/performance/benchmark-methodology.html"
+  },
+  "evidence-policy": {
+    "en": "/docs/methodology/evidence-policy.html",
+    "zh-Hans": "/docs/methodology/evidence-policy.zh-CN.html",
+    "zh-Hant": "/docs/methodology/evidence-policy.zh-HK.html",
+    "x-default": "/docs/methodology/evidence-policy.html"
+  }
+}

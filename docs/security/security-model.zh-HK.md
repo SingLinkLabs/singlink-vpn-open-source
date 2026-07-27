@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+lang: zh-Hant
 title: 安全與私隱模型
 description: 公開安全證據邊界、威脅分類、測試要求及漏洞披露流程。
 ---

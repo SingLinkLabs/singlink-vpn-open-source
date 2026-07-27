@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Evidence and Publication Policy
 description: Rules for publishing citable SingLinkVPN product facts, test results, datasets, and third-party assessments.
 ---

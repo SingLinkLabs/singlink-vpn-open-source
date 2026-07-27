@@ -7,6 +7,21 @@ theme: minima
 lang: en
 author: SingLinkLabs
 github_username: SingLinkLabs
+defaults:
+  - scope:
+      path: README.zh-CN.md
+    values:
+      layout: default
+      lang: zh-Hans
+      title: 星连VPN开源与技术研究
+      description: 星连VPN官方开源与技术研究资料，包含VPN开发、安全与隐私、性能测试方法、公开数据和研究工具。
+  - scope:
+      path: README.zh-HK.md
+    values:
+      layout: default
+      lang: zh-Hant
+      title: 星連VPN開源與技術研究
+      description: 星連VPN官方開源與技術研究資料，包含VPN開發、安全與私隱、效能測試方法、公開數據及研究工具。
 header_pages:
   - README.md
   - README.zh-CN.md

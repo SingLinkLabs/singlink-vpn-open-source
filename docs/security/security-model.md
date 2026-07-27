@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Security and Privacy Model
 description: Public security evidence boundaries, threat model categories, testing requirements, and disclosure process.
 ---

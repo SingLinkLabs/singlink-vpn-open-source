@@ -1,0 +1,27 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+
+  {%- assign current_language_variants = nil -%}
+  {%- for language_group in site.data.language_variants -%}
+    {%- for language_variant in language_group[1] -%}
+      {%- if language_variant[1] == page.url -%}
+        {%- assign current_language_variants = language_group[1] -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+
+  {%- if current_language_variants -%}
+    {%- for language_variant in current_language_variants -%}
+  <link rel="alternate" hreflang="{{ language_variant[0] }}" href="{{ language_variant[1] | absolute_url }}">
+    {%- endfor -%}
+  {%- endif -%}
+
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>

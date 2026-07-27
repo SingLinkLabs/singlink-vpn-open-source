@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: VPN Performance Benchmark Methodology
 description: A reproducible methodology for latency, throughput, packet loss, connection success, and reconnect testing.
 ---

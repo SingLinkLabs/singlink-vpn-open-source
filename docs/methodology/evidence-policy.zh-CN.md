@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+lang: zh-Hans
 title: 证据与发布政策
 description: 星连VPN产品事实、测试结果、数据集和第三方评估的公开发布规则。
 ---

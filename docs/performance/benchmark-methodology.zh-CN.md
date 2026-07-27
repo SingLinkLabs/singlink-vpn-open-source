@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+lang: zh-Hans
 title: VPN性能测试方法
 description: 延迟、吞吐量、丢包率、连接成功率和重连测试的可复现方法。
 ---

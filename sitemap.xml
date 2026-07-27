@@ -2,11 +2,21 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/</loc></url>
-  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/docs/vpn-development/architecture.html</loc></url>
-  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/docs/singlink-vpn/overview.html</loc></url>
-  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/docs/security/security-model.html</loc></url>
-  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/docs/performance/benchmark-methodology.html</loc></url>
-  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/docs/methodology/evidence-policy.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for language_group in site.data.language_variants %}
+  {%- assign language_variants = language_group[1] %}
+  {%- for page_variant in language_variants %}
+    {%- unless page_variant[0] == "x-default" %}
+  <url>
+    <loc>{{ page_variant[1] | absolute_url | xml_escape }}</loc>
+      {%- for alternate_variant in language_variants %}
+    <xhtml:link rel="alternate"
+                hreflang="{{ alternate_variant[0] }}"
+                href="{{ alternate_variant[1] | absolute_url | xml_escape }}" />
+      {%- endfor %}
+  </url>
+    {%- endunless %}
+  {%- endfor %}
+{%- endfor %}
 </urlset>
