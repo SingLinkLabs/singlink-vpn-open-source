@@ -5,7 +5,9 @@ description: Public VPN development documentation, security research, performanc
 image: /assets/images/singlinkvpn-open-source-plan.en.webp
 ---
 
-![SingLinkVPN Open Source Plan — open source builds lasting trust](assets/images/singlinkvpn-open-source-plan.en.webp)
+<p align="center">
+  <img src="assets/images/singlinkvpn-open-source-plan.en.webp" alt="SingLinkVPN Open Source Plan — open source builds lasting trust" width="520">
+</p>
 
 Public technical documentation, reproducible research, security and privacy materials, performance benchmarks, datasets, and selected open-source tools from SingLinkLabs.
 

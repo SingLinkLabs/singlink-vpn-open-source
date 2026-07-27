@@ -2,7 +2,9 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · 繁體中文
 
-![星連VPN開源計劃：開源，是建立長期信任的開始](assets/images/singlinkvpn-open-source-plan.zh-HK.webp)
+<p align="center">
+  <img src="assets/images/singlinkvpn-open-source-plan.zh-HK.webp" alt="星連VPN開源計劃：開源，是建立長期信任的開始" width="520">
+</p>
 
 這是星連VPN官方開源與技術研究儲存庫，用於持續發佈公開文件、可重現研究方法、安全與私隱資料、效能測試格式、數據集及部分開源工具。
 
