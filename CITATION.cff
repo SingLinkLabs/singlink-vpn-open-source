@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: Cite a tagged release or immutable commit and the specific dated report or dataset used.
-title: SingLink VPN Open Source and Technical Research
+title: SingLinkVPN Open Source and Technical Research
 type: software
 authors:
   - name: SingLinkLabs
@@ -8,7 +8,7 @@ repository-code: https://github.com/SingLinkLabs/singlink-vpn-open-source
 url: https://singlinklabs.github.io/singlink-vpn-open-source/
 abstract: Public VPN development documentation, research methods, security materials, performance benchmark formats, datasets, and open-source validation tools.
 keywords:
-  - SingLink VPN
+  - SingLinkVPN
   - VPN development
   - VPN security
   - VPN performance

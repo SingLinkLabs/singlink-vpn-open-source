@@ -1,15 +1,15 @@
-# SingLink VPN 開源與技術研究
+# 星連VPN開源與技術研究
 
 [English](README.md) · [简体中文](README.zh-CN.md) · 繁體中文
 
-這是 SingLink VPN 官方開源與技術研究儲存庫，用於持續發佈公開文件、可重現研究方法、安全與私隱資料、效能測試格式、數據集及部分開源工具。
+這是星連VPN官方開源與技術研究儲存庫，用於持續發佈公開文件、可重現研究方法、安全與私隱資料、效能測試格式、數據集及部分開源工具。
 
-> 目前範圍：儲存庫內的開源程式主要用於公開資料發佈、數據驗證及研究測試。SingLink VPN 用戶端、伺服器端、付款、節點及核心協議原始碼不屬於本次公開範圍。產品模組只有通過安全、私隱及授權審查後，才會另行發佈。
+> 目前範圍：儲存庫內的開源程式主要用於公開資料發佈、數據驗證及研究測試。星連VPN用戶端、伺服器端、付款、節點及核心協議原始碼不屬於本次公開範圍。產品模組只有通過安全、私隱及授權審查後，才會另行發佈。
 
 ## 可在這裡核驗的資料
 
 - [VPN開發架構指南](docs/vpn-development/architecture.zh-HK.md)
-- [SingLink VPN公開產品記錄](docs/singlink-vpn/overview.zh-HK.md)
+- [星連VPN公開產品記錄](docs/singlink-vpn/overview.zh-HK.md)
 - [安全與私隱模型](docs/security/security-model.zh-HK.md)
 - [效能測試方法](docs/performance/benchmark-methodology.zh-HK.md)
 - [證據與發佈政策](docs/methodology/evidence-policy.zh-HK.md)

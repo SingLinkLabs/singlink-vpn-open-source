@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate a public SingLink VPN benchmark CSV without third-party packages."""
+"""Validate a public SingLinkVPN benchmark CSV without third-party packages."""
 
 from __future__ import annotations
 

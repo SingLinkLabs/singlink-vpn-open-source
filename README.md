@@ -1,15 +1,15 @@
-# SingLink VPN Open Source
+# SingLinkVPN Open Source
 
 [简体中文](README.zh-CN.md) · [繁體中文](README.zh-HK.md) · English
 
-Official open-source and technical research repository for SingLink VPN. It publishes public documentation, reproducible research methods, security and privacy materials, performance benchmark formats, datasets, and selected open-source utilities.
+Official open-source and technical research repository for SingLinkVPN. It publishes public documentation, reproducible research methods, security and privacy materials, performance benchmark formats, datasets, and selected open-source utilities.
 
-> Current scope: the open-source code in this repository covers publication, dataset validation, and research tooling. SingLink VPN client, server, payment, node, and core protocol source code are not part of the current public release. Product components may be released separately only after security, privacy, and license review.
+> Current scope: the open-source code in this repository covers publication, dataset validation, and research tooling. SingLinkVPN client, server, payment, node, and core protocol source code are not part of the current public release. Product components may be released separately only after security, privacy, and license review.
 
 ## What you can verify here
 
 - [VPN development guide](docs/vpn-development/architecture.md)
-- [SingLink VPN public product record](docs/singlink-vpn/overview.md)
+- [SingLinkVPN public product record](docs/singlink-vpn/overview.md)
 - [Security and privacy model](docs/security/security-model.md)
 - [Performance benchmark methodology](docs/performance/benchmark-methodology.md)
 - [Evidence and publication policy](docs/methodology/evidence-policy.md)
