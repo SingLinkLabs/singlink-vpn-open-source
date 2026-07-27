@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: SingLinkVPN Public Product Record
 description: A versioned public record of SingLinkVPN documentation, supported platforms, research artifacts, and evidence boundaries.
 ---

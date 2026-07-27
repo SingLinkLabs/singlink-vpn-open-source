@@ -30,6 +30,9 @@ jobs:
           source: ./
           destination: ./_site
 
+      - name: Validate rendered multilingual SEO
+        run: python3 tools/check_multilingual_seo.py --site ./_site
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
 

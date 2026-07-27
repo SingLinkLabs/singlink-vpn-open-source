@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+lang: zh-Hant
 title: VPN效能測試方法
 description: 延遲、吞吐量、封包遺失率、連線成功率及重新連線測試的可重現方法。
 ---

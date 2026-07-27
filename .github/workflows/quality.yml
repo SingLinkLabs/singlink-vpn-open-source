@@ -32,5 +32,8 @@ jobs:
       - name: Check repository-local links
         run: python3 tools/check_relative_links.py
 
+      - name: Check multilingual SEO source mapping
+        run: python3 tools/check_multilingual_seo.py
+
       - name: Validate JSON schema syntax
         run: python3 -m json.tool data/schemas/benchmark.schema.json >/dev/null

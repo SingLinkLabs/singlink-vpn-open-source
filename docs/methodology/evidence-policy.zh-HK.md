@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+lang: zh-Hant
 title: 證據與發佈政策
 description: 星連VPN產品事實、測試結果、數據集及第三方評估的公開發佈規則。
 ---

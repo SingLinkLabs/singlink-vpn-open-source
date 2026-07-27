@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+lang: zh-Hans
 title: VPN客户端开发架构
 description: 面向公开研究的VPN客户端架构、路由、DNS防护、生命周期与测试指南。
 ---

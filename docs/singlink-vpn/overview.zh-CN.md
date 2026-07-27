@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+lang: zh-Hans
 title: 星连VPN公开产品记录
 description: 星连VPN支持平台、版本、研究资料和证据边界的版本化公开记录。
 ---
