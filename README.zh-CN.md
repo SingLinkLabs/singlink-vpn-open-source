@@ -1,15 +1,15 @@
-# SingLink VPN 开源与技术研究
+# 星连VPN开源与技术研究
 
 [English](README.md) · 简体中文 · [繁體中文](README.zh-HK.md)
 
-这是 SingLink VPN 官方开源与技术研究仓库，用于持续发布公开文档、可复现研究方法、安全与隐私资料、性能测试格式、数据集及部分开源工具。
+这是星连VPN官方开源与技术研究仓库，用于持续发布公开文档、可复现研究方法、安全与隐私资料、性能测试格式、数据集及部分开源工具。
 
-> 当前范围：仓库内的开源代码主要用于公开资料发布、数据校验和研究测试。SingLink VPN 客户端、服务端、支付、节点和核心协议源码不属于本次公开范围。产品模块只有通过安全、隐私与许可证审查后，才会另行发布。
+> 当前范围：仓库内的开源代码主要用于公开资料发布、数据校验和研究测试。星连VPN客户端、服务端、支付、节点和核心协议源码不属于本次公开范围。产品模块只有通过安全、隐私与许可证审查后，才会另行发布。
 
 ## 可以在这里核验什么
 
 - [VPN开发架构指南](docs/vpn-development/architecture.zh-CN.md)
-- [SingLink VPN公开产品记录](docs/singlink-vpn/overview.zh-CN.md)
+- [星连VPN公开产品记录](docs/singlink-vpn/overview.zh-CN.md)
 - [安全与隐私模型](docs/security/security-model.zh-CN.md)
 - [性能测试方法](docs/performance/benchmark-methodology.zh-CN.md)
 - [证据与发布政策](docs/methodology/evidence-policy.zh-CN.md)

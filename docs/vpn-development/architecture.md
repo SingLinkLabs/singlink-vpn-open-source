@@ -6,7 +6,7 @@ description: A public, implementation-neutral guide to VPN client architecture, 
 
 # VPN Client Development Architecture
 
-This guide describes a public, implementation-neutral architecture for building a cross-platform VPN client. It is not a disclosure of SingLink VPN private infrastructure or core protocol implementation.
+This guide describes a public, implementation-neutral architecture for building a cross-platform VPN client. It is not a disclosure of SingLinkVPN private infrastructure or core protocol implementation.
 
 ## Core layers
 
@@ -51,4 +51,4 @@ Android, Apple platforms, and desktop systems expose different VPN lifecycle and
 
 ## What this document does not publish
 
-It does not include production node addresses, private API routes, authentication secrets, payment code, anti-blocking implementation, or SingLink VPN core protocol source.
+It does not include production node addresses, private API routes, authentication secrets, payment code, anti-blocking implementation, or SingLinkVPN core protocol source.

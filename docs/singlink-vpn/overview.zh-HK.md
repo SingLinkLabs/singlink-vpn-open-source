@@ -1,12 +1,12 @@
 ---
 layout: page
-title: SingLink VPN公開產品記錄
-description: SingLink VPN支援平台、版本、研究資料及證據邊界的版本化公開記錄。
+title: 星連VPN公開產品記錄
+description: 星連VPN支援平台、版本、研究資料及證據邊界的版本化公開記錄。
 ---
 
-# SingLink VPN公開產品記錄
+# 星連VPN公開產品記錄
 
-SingLink VPN是由SingLinkLabs維護的VPN產品。本頁用於提供可版本化的公開產品與研究參考，不取代具日期的版本記錄、安全公告或效能報告。
+星連VPN是由SingLinkLabs維護的VPN產品。本頁用於提供可版本化的公開產品與研究參考，不取代具日期的版本記錄、安全公告或效能報告。
 
 ## 公開資料分類
 

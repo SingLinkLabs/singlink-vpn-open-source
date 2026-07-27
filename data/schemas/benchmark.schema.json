@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://singlinklabs.github.io/singlink-vpn-open-source/data/schemas/benchmark.schema.json",
-  "title": "SingLink VPN Public Benchmark Record",
+  "title": "SingLinkVPN Public Benchmark Record",
   "description": "Machine-readable schema for one dated VPN benchmark aggregate. It does not contain private node addresses or user information.",
   "type": "object",
   "additionalProperties": false,

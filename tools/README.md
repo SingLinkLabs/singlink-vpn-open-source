@@ -1,6 +1,6 @@
 # Open-source research tools
 
-The tools in this directory are public utilities for research-data validation and safe publication. They do not contain SingLink VPN product source or production configuration.
+The tools in this directory are public utilities for research-data validation and safe publication. They do not contain SingLinkVPN product source or production configuration.
 
 ## Publication guard
 

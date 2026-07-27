@@ -1,4 +1,4 @@
-# SingLink VPN Open Source
+# SingLinkVPN Open Source
 
 Official public technical and research repository maintained by SingLinkLabs.
 
