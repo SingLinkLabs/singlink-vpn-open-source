@@ -2,7 +2,10 @@
 layout: home
 title: SingLinkVPN Open Source
 description: Public VPN development documentation, security research, performance methodology, datasets, and open-source research tools from SingLinkLabs.
+image: /assets/images/singlinkvpn-open-source-plan.en.webp
 ---
+
+![SingLinkVPN Open Source Plan — open source builds lasting trust](assets/images/singlinkvpn-open-source-plan.en.webp)
 
 Public technical documentation, reproducible research, security and privacy materials, performance benchmarks, datasets, and selected open-source tools from SingLinkLabs.
 

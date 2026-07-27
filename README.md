@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md) · [繁體中文](README.zh-HK.md) · English
 
+![SingLinkVPN Open Source Plan — open source builds lasting trust](assets/images/singlinkvpn-open-source-plan.en.webp)
+
 Official open-source and technical research repository for SingLinkVPN. It publishes public documentation, reproducible research methods, security and privacy materials, performance benchmark formats, datasets, and selected open-source utilities.
 
 > Current scope: the open-source code in this repository covers publication, dataset validation, and research tooling. SingLinkVPN client, server, payment, node, and core protocol source code are not part of the current public release. Product components may be released separately only after security, privacy, and license review.

@@ -47,6 +47,26 @@ SECRET_PATTERNS = {
 
 SCAN_EXCLUSIONS = {"tools/publication_guard.py"}
 
+PUBLIC_IMAGE_EXTENSIONS = {".gif", ".jpeg", ".jpg", ".png", ".webp"}
+
+
+def has_valid_public_image_signature(path: Path, suffix: str) -> bool:
+    """Accept only known web-image formats instead of arbitrary binary files."""
+    header = path.read_bytes()[:16]
+    if suffix == ".png":
+        return header.startswith(b"\x89PNG\r\n\x1a\n")
+    if suffix in {".jpg", ".jpeg"}:
+        return header.startswith(b"\xff\xd8\xff")
+    if suffix == ".gif":
+        return header.startswith((b"GIF87a", b"GIF89a"))
+    if suffix == ".webp":
+        return (
+            len(header) >= 12
+            and header.startswith(b"RIFF")
+            and header[8:12] == b"WEBP"
+        )
+    return False
+
 
 def repository_files() -> list[Path]:
     result = subprocess.run(
@@ -90,6 +110,11 @@ def check_path(path: Path) -> list[str]:
         errors.append(f"{rel}: exceeds the 5 MiB public-file limit")
 
     if rel in SCAN_EXCLUSIONS or not path.is_file():
+        return errors
+
+    if suffix in PUBLIC_IMAGE_EXTENSIONS:
+        if not has_valid_public_image_signature(path, suffix):
+            errors.append(f"{rel}: invalid {suffix} image signature")
         return errors
 
     try:
