@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://singlinklabs.github.io/singlink-vpn-open-source/data/schemas/benchmark.schema.json",
+  "title": "SingLink VPN Public Benchmark Record",
+  "description": "Machine-readable schema for one dated VPN benchmark aggregate. It does not contain private node addresses or user information.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "test_id",
+    "tested_at_utc",
+    "client_version",
+    "platform",
+    "protocol_label",
+    "country",
+    "network_type",
+    "sample_count",
+    "latency_ms_median",
+    "jitter_ms_p95",
+    "packet_loss_pct",
+    "download_mbps_median",
+    "upload_mbps_median",
+    "connection_success_pct",
+    "reconnect_ms_median",
+    "methodology_version",
+    "evidence_level"
+  ],
+  "properties": {
+    "test_id": {"type": "string", "minLength": 1},
+    "tested_at_utc": {"type": "string", "format": "date-time"},
+    "client_version": {"type": "string", "minLength": 1},
+    "platform": {"type": "string", "minLength": 1},
+    "protocol_label": {"type": "string", "minLength": 1},
+    "country": {"type": "string", "minLength": 2},
+    "network_type": {"type": "string", "minLength": 1},
+    "sample_count": {"type": "integer", "minimum": 1},
+    "latency_ms_median": {"type": "number", "minimum": 0},
+    "jitter_ms_p95": {"type": "number", "minimum": 0},
+    "packet_loss_pct": {"type": "number", "minimum": 0, "maximum": 100},
+    "download_mbps_median": {"type": "number", "minimum": 0},
+    "upload_mbps_median": {"type": "number", "minimum": 0},
+    "connection_success_pct": {"type": "number", "minimum": 0, "maximum": 100},
+    "reconnect_ms_median": {"type": "number", "minimum": 0},
+    "methodology_version": {"type": "string", "minLength": 1},
+    "evidence_level": {
+      "type": "string",
+      "enum": ["internal-test", "reproduced-result", "third-party-assessment"]
+    }
+  }
+}

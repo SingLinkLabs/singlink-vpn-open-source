@@ -1,0 +1,1 @@
+test_id,tested_at_utc,client_version,platform,protocol_label,country,network_type,sample_count,latency_ms_median,jitter_ms_p95,packet_loss_pct,download_mbps_median,upload_mbps_median,connection_success_pct,reconnect_ms_median,methodology_version,evidence_level

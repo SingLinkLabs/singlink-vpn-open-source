@@ -1,0 +1,30 @@
+name: Documentation correction
+description: Report a factual, citation, translation, or accessibility issue.
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or file
+      placeholder: docs/path/file.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What should be corrected?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or primary source
+      description: Include a stable link, version, date, or reproducible method.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public-data check
+      options:
+        - label: This report contains no credentials, private endpoints, node addresses, or personal information.
+          required: true

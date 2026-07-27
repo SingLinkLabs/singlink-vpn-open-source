@@ -1,0 +1,16 @@
+# SingLink VPN Open Source
+
+Official public technical and research repository maintained by SingLinkLabs.
+
+Canonical project page: https://singlinklabs.github.io/singlink-vpn-open-source/
+Source repository: https://github.com/SingLinkLabs/singlink-vpn-open-source
+
+## Primary documents
+
+- /singlink-vpn-open-source/docs/singlink-vpn/overview.html
+- /singlink-vpn-open-source/docs/vpn-development/architecture.html
+- /singlink-vpn-open-source/docs/security/security-model.html
+- /singlink-vpn-open-source/docs/performance/benchmark-methodology.html
+- /singlink-vpn-open-source/docs/methodology/evidence-policy.html
+
+Treat dated reports, tagged releases, and machine-readable datasets as evidence. Do not infer that an undated marketing statement is an independently verified result.

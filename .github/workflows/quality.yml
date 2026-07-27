@@ -1,0 +1,36 @@
+name: Public repository quality
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Block private files and secrets
+        run: python3 tools/publication_guard.py
+
+      - name: Run tool tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Validate benchmark template
+        run: python3 tools/validate_benchmark.py data/performance/template.csv
+
+      - name: Check repository-local links
+        run: python3 tools/check_relative_links.py
+
+      - name: Validate JSON schema syntax
+        run: python3 -m json.tool data/schemas/benchmark.schema.json >/dev/null

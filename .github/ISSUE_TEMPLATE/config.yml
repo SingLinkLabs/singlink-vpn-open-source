@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security disclosure
+    url: https://singlinkvpn.com/
+    about: Do not post an unpatched vulnerability or credential in a public issue.
+  - name: Official support
+    url: https://singlinkvpn.com/
+    about: Use the official support channel for account or service questions.

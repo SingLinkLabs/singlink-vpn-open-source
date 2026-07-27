@@ -1,0 +1,12 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/</loc></url>
+  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/docs/vpn-development/architecture.html</loc></url>
+  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/docs/singlink-vpn/overview.html</loc></url>
+  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/docs/security/security-model.html</loc></url>
+  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/docs/performance/benchmark-methodology.html</loc></url>
+  <url><loc>https://singlinklabs.github.io/singlink-vpn-open-source/docs/methodology/evidence-policy.html</loc></url>
+</urlset>
