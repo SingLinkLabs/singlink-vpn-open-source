@@ -12,4 +12,4 @@ Security findings are published only after triage, remediation, release, and rea
 
 ## Scope of this repository
 
-The public tools in this repository validate research data and publication safety. Their presence does not imply that SingLink VPN product source code or private infrastructure configuration is public.
+The public tools in this repository validate research data and publication safety. Their presence does not imply that SingLinkVPN product source code or private infrastructure configuration is public.

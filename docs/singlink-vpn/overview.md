@@ -1,12 +1,12 @@
 ---
 layout: page
-title: SingLink VPN Public Product Record
-description: A versioned public record of SingLink VPN documentation, supported platforms, research artifacts, and evidence boundaries.
+title: SingLinkVPN Public Product Record
+description: A versioned public record of SingLinkVPN documentation, supported platforms, research artifacts, and evidence boundaries.
 ---
 
-# SingLink VPN Public Product Record
+# SingLinkVPN Public Product Record
 
-SingLink VPN is a VPN product maintained by SingLinkLabs. This page is a versioned public record for documentation and research references; it is not a substitute for a dated release note, security advisory, or benchmark report.
+SingLinkVPN is a VPN product maintained by SingLinkLabs. This page is a versioned public record for documentation and research references; it is not a substitute for a dated release note, security advisory, or benchmark report.
 
 ## Public information model
 

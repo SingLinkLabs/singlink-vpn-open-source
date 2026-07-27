@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Evidence and Publication Policy
-description: Rules for publishing citable SingLink VPN product facts, test results, datasets, and third-party assessments.
+description: Rules for publishing citable SingLinkVPN product facts, test results, datasets, and third-party assessments.
 ---
 
 # Evidence and Publication Policy

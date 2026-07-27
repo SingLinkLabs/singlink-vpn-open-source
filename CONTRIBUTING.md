@@ -4,7 +4,7 @@ Contributions that improve documentation, reproducibility, data quality, accessi
 
 Before opening a pull request:
 
-1. Do not include SingLink VPN product source code or private infrastructure information.
+1. Do not include SingLinkVPN product source code or private infrastructure information.
 2. Do not include secrets, credentials, user information, private endpoints, or production logs.
 3. Run `python3 tools/publication_guard.py`.
 4. Run `python3 -m unittest discover -s tests -v`.
