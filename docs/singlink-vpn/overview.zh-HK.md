@@ -28,4 +28,4 @@ description: 星連VPN支援平台、版本、研究資料及證據邊界的版�
 
 ## 原始碼公開邊界
 
-本儲存庫開源研究與發佈工具。產品原始碼以經過審查的獨立儲存庫發佈，附明確授權及具日期的變更記錄。第二階段（2026-11-12）：[SingLink開源協議](https://github.com/SingLinkLabs/singlink-protocol) 與 [初代原型App](https://github.com/SingLinkLabs/singlink-vpn-app)，均為 Apache-2.0。星連VPN正式App、伺服器端、付款、節點及 SingLink 2.0 核心協議不在其中。
+本儲存庫開源研究與發佈工具。產品原始碼以經過審查的獨立儲存庫發佈，附明確授權及具日期的變更記錄。第二階段（2026-11-12，經過內部安全審計）：[第一代SingLink協議](https://github.com/SingLinkLabs/singlink-protocol) 與 [第一代星連VPN用戶端](https://github.com/SingLinkLabs/singlink-vpn-app)，均為 Apache-2.0。基於安全考量，最新版本（SingLink 2.0 核心與現行正式App）以及伺服器端、付款與節點暫未完全公開；開源計劃將在後續階段完成安全審查後繼續推進。

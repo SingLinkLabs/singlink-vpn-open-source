@@ -8,16 +8,16 @@
 
 这是星连VPN官方开源与技术研究仓库，用于持续发布公开文档、可复现研究方法、安全与隐私资料、性能测试格式、数据集及部分开源工具。
 
-> **第二阶段（2026-11-12）：开放协议与初代原型App已开源。** 经过安全、隐私与许可证审查，SingLinkLabs 以两个独立仓库（Apache-2.0）发布了第一批产品源码（见下表）。本仓库继续发布文档、研究数据和工具。星连VPN正式App、服务端、支付、节点和 SingLink 2.0 核心协议仍不公开。
+> **第二阶段（2026-11-12）：第一代SingLink协议与第一代星连VPN客户端已开源。** 经过内部安全审计，SingLinkLabs 以两个独立仓库（Apache-2.0）发布了第一代协议与客户端代码（见下表）。出于安全考虑，最新版本（SingLink 2.0 核心与现行星连VPN正式App）以及服务端、支付和节点暂未完全公开，本次仅发布不构成安全风险的代码。开源计划将持续推进：后续阶段会在完成安全审查后公开更多内容，本仓库也会继续发布文档、研究数据和工具。
 
 ## 开源代码（第二阶段）
 
 | 仓库 | 内容 | 状态 |
 | --- | --- | --- |
-| [singlink-protocol](https://github.com/SingLinkLabs/singlink-protocol) | SingLink开源协议（`SingLink/1`）：用 Go 从零编写的开放代理/VPN协议。签名并绑定设备的权限通行证、内层端到端加密、X25519 + ML-KEM-768 混合抗量子密钥交换、防重放与防主动探测。 | 1.0 草案 · 已完成内部安全审计（31 项，高、中风险全部修复）· Apache-2.0 |
-| [singlink-vpn-app](https://github.com/SingLinkLabs/singlink-vpn-app) | 星连VPN初代原型App，支持 Windows、macOS、Android、iOS（Flutter + Go），基于 SingLink开源协议。手机端为整机VPN，电脑端为系统代理。 | 原型，不是应用商店里的正式App · Apache-2.0 |
+| [singlink-protocol](https://github.com/SingLinkLabs/singlink-protocol) | 第一代SingLink协议（`SingLink/1`）：用 Go 从零编写。签名并绑定设备的权限通行证、内层端到端加密、X25519 + ML-KEM-768 混合抗量子密钥交换、防重放与防主动探测。 | 第一代（规范 1.0 草案）· 已完成内部安全审计（31 项，高、中风险全部修复）· 计划进行第三方审计 · Apache-2.0 |
+| [singlink-vpn-app](https://github.com/SingLinkLabs/singlink-vpn-app) | 第一代星连VPN客户端，支持 Windows、macOS、Android、iOS（Flutter + Go），基于 SingLink协议。手机端为整机VPN，电脑端为系统代理。 | 第一代客户端（原型阶段）· Apache-2.0 |
 
-已知限制：尚未进行第三方审计；开源协议尚未在中国大陆实测。安全漏洞请通过各仓库的 Security 页私下报告。
+安全：协议已计划进行第三方审计。安全漏洞请通过各仓库的 Security 页私下报告。
 
 ## 可以在这里核验什么
 
