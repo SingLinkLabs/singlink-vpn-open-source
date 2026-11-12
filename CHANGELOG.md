@@ -4,13 +4,15 @@ All notable public repository changes are recorded here.
 
 ## 2026-11-13 — Phase 2 wording
 
+- Unified the open first-generation protocol name as **SingLink Beta** across English, 简体中文, 繁體中文, project listings, and machine-readable discovery text. Existing repository URLs and compatibility constants are unchanged.
+
 - Lineage statement now names the Beta protocol: from SingLinkVPN's early versions and SingLink Beta (the same name in every language) to SingLink 2.0.
 - Added the approved lineage statement: the SingLink protocol evolved from SingLinkVPN's early versions to SingLink 2.0, and the first-generation release carries forward its design principles (README, 简体中文, 繁體中文, overview, index, llms.txt).
-- Described the phase 2 release as the first-generation SingLink protocol and the first-generation SingLinkVPN client, released after an internal security audit; the latest versions stay closed for security reasons for now, and the open-source plan continues (README, 简体中文, 繁體中文, SingLinkVPN overview, index, llms.txt).
+- Described the phase 2 release as the first-generation SingLink Beta protocol and the first-generation SingLinkVPN client, released after an internal security audit; the latest versions stay closed for security reasons for now, and the open-source plan continues (README, 简体中文, 繁體中文, SingLinkVPN overview, index, llms.txt).
 
 ## 2026-11-12 — Phase 2: first-generation protocol and client
 
-- Released the SingLink Protocol (`SingLink/1`, 1.0 draft) as https://github.com/SingLinkLabs/singlink-protocol (Apache-2.0).
+- Released the SingLink Beta Protocol (1.0 draft) as https://github.com/SingLinkLabs/singlink-protocol (Apache-2.0).
 - Released the first-generation SingLinkVPN client as https://github.com/SingLinkLabs/singlink-vpn-app (Apache-2.0).
 - Updated the public-scope statements in the README and the SingLinkVPN overview (English, 简体中文, 繁體中文).
 
