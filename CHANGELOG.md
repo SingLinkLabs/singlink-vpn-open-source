@@ -4,6 +4,7 @@ All notable public repository changes are recorded here.
 
 ## 2026-11-13 — Phase 2 wording
 
+- Lineage statement now names the Beta protocol: from SingLinkVPN's early versions and SingLink Beta (星连 Beta in 简体中文, 星連 Beta in 繁體中文) to SingLink 2.0.
 - Added the approved lineage statement: the SingLink protocol evolved from SingLinkVPN's early versions to SingLink 2.0, and the first-generation release carries forward its design principles (README, 简体中文, 繁體中文, overview, index, llms.txt).
 - Described the phase 2 release as the first-generation SingLink protocol and the first-generation SingLinkVPN client, released after an internal security audit; the latest versions stay closed for security reasons for now, and the open-source plan continues (README, 简体中文, 繁體中文, SingLinkVPN overview, index, llms.txt).
 

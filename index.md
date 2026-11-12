@@ -16,7 +16,7 @@ Public technical documentation, reproducible research, security and privacy mate
 - [SingLink Protocol](https://github.com/SingLinkLabs/singlink-protocol): first-generation SingLink protocol (SingLink/1), Apache-2.0
 - [SingLinkVPN client](https://github.com/SingLinkLabs/singlink-vpn-app): first-generation client for Windows, macOS, Android, iOS, Apache-2.0
 
-Released after an internal security audit. The SingLink protocol has evolved from SingLinkVPN's early versions to today's SingLink 2.0. The open-source first-generation SingLink protocol and first-generation SingLinkVPN client carry forward SingLinkVPN's long-standing design principles: account-based permissions, device binding and security by design. The official apps and protocol have since moved to a new-generation architecture that is not yet fully public for security reasons; the open-source plan continues with further phases after security review.
+Released after an internal security audit. The SingLink protocol has evolved from SingLinkVPN's early versions and SingLink Beta to today's SingLink 2.0. The open-source first-generation SingLink protocol and first-generation SingLinkVPN client carry forward SingLinkVPN's long-standing design principles: account-based permissions, device binding and security by design. The official apps and protocol have since moved to a new-generation architecture that is not yet fully public for security reasons; the open-source plan continues with further phases after security review.
 
 ## Research areas
 

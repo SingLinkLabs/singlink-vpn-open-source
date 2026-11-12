@@ -12,7 +12,7 @@ Official open-source and technical research repository for SingLinkVPN. It publi
 
 ## Open-source code (phase 2)
 
-The SingLink protocol has evolved from SingLinkVPN's early versions to today's SingLink 2.0. The open-source first-generation SingLink protocol and first-generation SingLinkVPN client carry forward SingLinkVPN's long-standing design principles: account-based permissions, device binding and security by design. The official apps and protocol have since moved to a new-generation architecture that is not yet fully public for security reasons; we release only code that poses no security risk, and the open-source plan will continue.
+The SingLink protocol has evolved from SingLinkVPN's early versions and SingLink Beta to today's SingLink 2.0. The open-source first-generation SingLink protocol and first-generation SingLinkVPN client carry forward SingLinkVPN's long-standing design principles: account-based permissions, device binding and security by design. The official apps and protocol have since moved to a new-generation architecture that is not yet fully public for security reasons; we release only code that poses no security risk, and the open-source plan will continue.
 
 | Repository | What it is | Status |
 | --- | --- | --- |
