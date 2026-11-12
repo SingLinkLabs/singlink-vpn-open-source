@@ -8,7 +8,16 @@
 
 Official open-source and technical research repository for SingLinkVPN. It publishes public documentation, reproducible research methods, security and privacy materials, performance benchmark formats, datasets, and selected open-source utilities.
 
-> Current scope: the open-source code in this repository covers publication, dataset validation, and research tooling. SingLinkVPN client, server, payment, node, and core protocol source code are not part of the current public release. Product components may be released separately only after security, privacy, and license review.
+> **Phase 2 (2026-11-12): open protocol and prototype app released.** After security, privacy, and license review, SingLinkLabs released its first product source code as two separate Apache-2.0 repositories (below). This repository keeps publishing documentation, research data, and tooling. The official SingLinkVPN apps, servers, payment, nodes, and the SingLink 2.0 core protocol remain closed source.
+
+## Open-source code (phase 2)
+
+| Repository | What it is | Status |
+| --- | --- | --- |
+| [singlink-protocol](https://github.com/SingLinkLabs/singlink-protocol) | SingLink Protocol (`SingLink/1`): an open proxy/VPN protocol written from scratch in Go. Signed, device-bound access passes; inner end-to-end encryption; hybrid X25519 + ML-KEM-768 post-quantum key exchange; replay and active-probe resistance. | 1.0 draft · internal security review (31 findings, all High and Medium fixed) · Apache-2.0 |
+| [singlink-vpn-app](https://github.com/SingLinkLabs/singlink-vpn-app) | SingLinkVPN first-generation prototype app for Windows, macOS, Android, and iOS (Flutter + Go), built on the SingLink Protocol. Device-wide VPN on mobile, system proxy on desktop. | Prototype, not the app in the official stores · Apache-2.0 |
+
+Known limits: no third-party audit yet, and the open protocol has not been field-tested in mainland China. Report vulnerabilities privately through each repository's Security tab.
 
 ## What you can verify here
 

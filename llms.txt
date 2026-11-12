@@ -6,6 +6,11 @@ Canonical project page: https://singlinklabs.github.io/singlink-vpn-open-source/
 Source repository: https://github.com/SingLinkLabs/singlink-vpn-open-source
 Official Telegram community: https://t.me/singlinkvpn
 
+## Open-source code (phase 2, 2026-11-12, Apache-2.0)
+
+- SingLink Protocol (SingLink/1, 1.0 draft, open protocol written from scratch; separate from the closed SingLink 2.0 core): https://github.com/SingLinkLabs/singlink-protocol
+- SingLinkVPN first-generation prototype app for Windows, macOS, Android and iOS (not the official store app): https://github.com/SingLinkLabs/singlink-vpn-app
+
 ## Primary documents
 
 - /singlink-vpn-open-source/docs/singlink-vpn/overview.html

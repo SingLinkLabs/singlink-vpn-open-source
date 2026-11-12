@@ -36,4 +36,4 @@ A release record should include:
 
 ## Source publication boundary
 
-This repository currently open-sources research and publication tooling. Product client, server, payment, node, and core protocol source are not included in the current release. Any future product source release will use a separate review, explicit license, scoped directory, and dated change record.
+This repository open-sources research and publication tooling. Product source is released in separate, reviewed repositories with an explicit license and a dated change record. Phase 2 (2026-11-12): the open [SingLink Protocol](https://github.com/SingLinkLabs/singlink-protocol) and the [first-generation prototype app](https://github.com/SingLinkLabs/singlink-vpn-app), both Apache-2.0. The official SingLinkVPN apps, servers, payment, nodes, and the SingLink 2.0 core protocol are not included.

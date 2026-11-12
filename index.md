@@ -11,6 +11,11 @@ image: /assets/images/singlinkvpn-open-source-plan.en.webp
 
 Public technical documentation, reproducible research, security and privacy materials, performance benchmarks, datasets, and selected open-source tools from SingLinkLabs.
 
+## Open-source code (phase 2)
+
+- [SingLink Protocol](https://github.com/SingLinkLabs/singlink-protocol): open proxy/VPN protocol, 1.0 draft, Apache-2.0
+- [SingLinkVPN prototype app](https://github.com/SingLinkLabs/singlink-vpn-app): Windows, macOS, Android, iOS, Apache-2.0
+
 ## Research areas
 
 - [VPN development](docs/vpn-development/architecture.md)
