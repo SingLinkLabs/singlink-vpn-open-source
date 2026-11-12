@@ -12,6 +12,8 @@ Official open-source and technical research repository for SingLinkVPN. It publi
 
 ## Open-source code (phase 2)
 
+The SingLink protocol has evolved from SingLinkVPN's early versions to today's SingLink 2.0. The open-source first-generation SingLink protocol and first-generation SingLinkVPN client carry forward SingLinkVPN's long-standing design principles: account-based permissions, device binding and security by design. The official apps and protocol have since moved to a new-generation architecture that is not yet fully public for security reasons; we release only code that poses no security risk, and the open-source plan will continue.
+
 | Repository | What it is | Status |
 | --- | --- | --- |
 | [singlink-protocol](https://github.com/SingLinkLabs/singlink-protocol) | SingLink Protocol (`SingLink/1`): the first-generation version of the SingLink protocol, written from scratch in Go. Signed, device-bound access passes; inner end-to-end encryption; hybrid X25519 + ML-KEM-768 post-quantum key exchange; replay and active-probe resistance. | First generation (spec 1.0 draft) · internal security audit (31 findings, all High and Medium fixed) · third-party audit planned · Apache-2.0 |

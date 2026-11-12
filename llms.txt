@@ -10,6 +10,7 @@ Official Telegram community: https://t.me/singlinkvpn
 
 - First-generation SingLink protocol (SingLink/1, written from scratch in Go; internal security audit, 31 findings, all High and Medium fixed; third-party audit planned): https://github.com/SingLinkLabs/singlink-protocol
 - First-generation SingLinkVPN client for Windows, macOS, Android and iOS (Flutter + Go): https://github.com/SingLinkLabs/singlink-vpn-app
+- Lineage: the SingLink protocol evolved from SingLinkVPN's early versions to today's SingLink 2.0; the first-generation protocol and client carry forward its design principles (account-based permissions, device binding, security by design).
 - The latest versions (SingLink 2.0 core, current official apps) are not yet fully public for security reasons; the open-source plan continues with further phases after security review.
 
 ## Primary documents

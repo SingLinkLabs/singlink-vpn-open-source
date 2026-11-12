@@ -4,6 +4,7 @@ All notable public repository changes are recorded here.
 
 ## 2026-11-13 — Phase 2 wording
 
+- Added the approved lineage statement: the SingLink protocol evolved from SingLinkVPN's early versions to SingLink 2.0, and the first-generation release carries forward its design principles (README, 简体中文, 繁體中文, overview, index, llms.txt).
 - Described the phase 2 release as the first-generation SingLink protocol and the first-generation SingLinkVPN client, released after an internal security audit; the latest versions stay closed for security reasons for now, and the open-source plan continues (README, 简体中文, 繁體中文, SingLinkVPN overview, index, llms.txt).
 
 ## 2026-11-12 — Phase 2: first-generation protocol and client
